@@ -26,11 +26,12 @@ const Calculator: React.FC = () => {
     setResult('');
   };
 
+
   return (
     <div className="calculator">
       <div className="display">
-        <input type="text" value={input} readOnly />
-        <input type="text" value={result} readOnly />
+        <input type="text" value={input} />
+        <input type="text" value={result} />
       </div>
 
       <div className="buttons">
